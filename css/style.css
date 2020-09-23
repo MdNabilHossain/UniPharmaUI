@@ -87,60 +87,6 @@ body {
   background: #3c9bd9;
 }
 
-.section.triad-section {
-  margin-top: 10px;
-}
-
-section.section h2 {
-  font-size: 40px;
-  line-height: 46px;
-  margin-bottom: 20px;
-  text-align: center;
-  margin-top: 0;
-}
-
-h2 {
-  color: #000;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 200;
-  letter-spacing: -1px;
-}
-
-section.section p.sub-heading {
-  font-size: 16px;
-  font-family: "Gotham SSm A", "Gotham SSm B";
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-section.triad-section .triad-sub-section {
-  padding-right: 60px;
-}
-
-section p.detail-paragraph:first-child {
-  margin-top: 0;
-}
-
-section p.detail-paragraph {
-  font-family: 'Open Sans Condensed', sans-serif;
-  margin-top: 40px;
-  font-size: 18px;
-  color: #000;
-}
-
-b,
-strong {
-  font-weight: 700;
-}
-
 
 .extra-div h2 {
   font-size: 0.9rem;
@@ -190,6 +136,7 @@ strong {
   font-weight: bold;
 }
 
+/* 
 #phone {
   margin-top: 5px;
   margin-left: 10px;
@@ -197,7 +144,7 @@ strong {
 }
 
 #phone a {
-  /* Phone number */
+  Phone number
   text-align: center;
   padding-bottom: 0;
   color: #61122f;
@@ -205,7 +152,7 @@ strong {
 }
 
 #phone div {
-  /* We Deliver */
+  We Deliver
   color: #fff;
 
   background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
@@ -219,8 +166,8 @@ strong {
 
 #phone div:hover {
   background: linear-gradient(to left, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
-}
-
+} 
+*/
 .header_section {
   width: 100%;
   height: inherit;
@@ -527,6 +474,11 @@ form:hover .form-button button {
   font-size: 1.2rem !important;
   font-weight: 600;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.footerposition {
+  bottom: 0;
+  position: absolute;
 }
 
 /* footer ends */
