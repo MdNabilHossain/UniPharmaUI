@@ -1,0 +1,733 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #eff4ff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+header_nav {
+  text-align: center;
+  color: rgb(32, 148, 90);
+  background-color: #5acc1785;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-family: 'lora', serif;
+  box-shadow: 0px 8px 8px -6px rgba(138, 74, 38, 0.5);
+}
+
+/* header */
+
+#header-nav {
+  background-color: #74D38E;
+  box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, .5);
+  border-radius: 0;
+  border: 0;
+
+}
+
+/* #logo-img {
+	background: url('../images/logom2.png') no-repeat;
+	width: 1550px;
+	height: 150px;
+	margin: 5px 10px 5px 0;
+} */
+.navbar-brand {
+  padding: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'lora', serif;
+  color: #5acc1785;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p {
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #10774c;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #bdd6c0;
+
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+
+}
+
+#phone {
+  margin-top: 5px;
+}
+
+#phone a {
+  text-align: right;
+  padding-bottom: 0;
+}
+
+#phone div {
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggler,
+.navbar-header .icon-bar {
+  border: 1px solid #1d1c1c;
+}
+
+.navbar-header button.navbar-toggler {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/* header end */
+
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#hours,
+#address {
+  line-height: 2;
+}
+
+#hours>span,
+#address>span {
+  font-size: 1.3em;
+}
+
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+#testimonials {
+  font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+/* END FOOTER */
+
+
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 50px cadetblue;
+  border: 2px solid cadetblue;
+  background: url('../images/main3.jpg') no-repeat;
+}
+
+#menu-tile,
+#specials-tile,
+#map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid cadetblue;
+  overflow: hidden;
+}
+
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('../images/medicines12.jpg') no-repeat;
+  background-position: center;
+}
+
+#specials-tile {
+  background: url('../images/special.jpg') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span,
+#specials-tile span,
+#map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+
+}
+
+/* media */
+
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/main3.jpg') no-repeat;
+    height: 675px;
+    box-shadow: 0 0 20px cadetblue;
+    border: 1px solid cadetblue;
+    background-size: cover;
+  }
+
+  #call-btn {
+    visibility: hidden;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /*	#logo-img {
+		background: url('../images/restaurant-logo_medium.png') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+}*/
+  #call-btn {
+    visibility: hidden;
+  }
+
+  .container .jumbotron {
+    background: url('../images/main3.jpg') no-repeat;
+    center: fixed;
+    height: 558px;
+    box-shadow: 0 0 20px cadetblue;
+    border: 1px solid cadetblue;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .container .jumbotron {
+    background: url('../images/main3.jpg') no-repeat;
+    height: 432px;
+    box-shadow: 0 0 20px cadetblue;
+    border: 1px solid cadetblue;
+  }
+
+  #call-btn {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand p {
+    font-size: .6em;
+    margin-top: 12px
+  }
+
+  .navbar-brand p img {
+    height: 20px;
+  }
+
+  #collapsable-nav a {
+    font-size: 1.2em;
+
+  }
+
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn>a {
+    font-size: 1.5em;
+    display: block;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    /* background-color: #f6b319; */
+    background-color: #74D38E;
+    color: #2c0918;
+  }
+
+  #call-btn>a:hover {
+    background: #999393;
+
+  }
+
+  #xs-deliver {
+    margin-top: 20px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0;
+    /* margin already exists on the whole row */
+  }
+
+  .panel-footer section hr {
+    width: 50%;
+  }
+
+  /* End Footer */
+
+  .container .jumbotron {
+    background: url('../images/main13.jpg') no-repeat;
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    padding: 0;
+    box-shadow: 0 0 50px cadetblue;
+    border: 2px solid cadetblue;
+  }
+
+  #menu-tile,
+  #specials-tile {
+    widows: 360px;
+    margin: 0 auto 15px;
+
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+
+  .menu-item-description {
+    text-align: center;
+    ;
+  }
+
+  .happyclients {
+    margin-bottom: 400px;
+  }
+
+  .ct-socials {
+    visibility: hidden;
+  }
+
+}
+
+
+
+
+@media(max-width:479px) {
+
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+
+  #menu-tile,
+  #specials-tile {
+    widows: 280px;
+    margin: 0 auto 15px;
+
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+/* end media */
+
+
+/* nabil vai code */
+/* ***************Coustomer feedback************ */
+.happyclients {
+  width: 100%;
+  height: 100vh;
+  padding: 80px 0;
+
+}
+
+.offer,
+.exclusive {
+  color: #34951c;
+}
+
+.box {
+  margin-top: 30px;
+  background-color: aqua;
+  text-align: center;
+  border: 1px solid rgba(14, 13, 13, 0.2);
+  box-shadow: 0 5px 10px 0 rgba(17, 17, 17, 0.3);
+  border-radius: 2px;
+  transition: 0.3s ease;
+  height: 250px;
+  float: left;
+  /* height: 250px; */
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 1px solid #050002;
+  overflow: hidden;
+}
+
+.box:hover {
+  background: aquamarine;
+  color: #ffffff;
+  box-shadow: 0 1px 5px 1px #5c8d5f;
+}
+
+.box:hover p {
+  color: rgb(74, 124, 73);
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -60px !important;
+}
+
+.carousel-indicators li {
+  background-color: #16c9f6 !important;
+}
+
+.box a {
+  position: relative;
+  color: #34951c;
+}
+
+.box p {
+
+  color: black;
+
+}
+
+.box a:after {
+  content: "\f10e";
+  font-family: FontAwesome;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+  color: white;
+  position: absolute;
+  top: 120%;
+  left: 70%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.box h2 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+/* ***************Coustomer feedback end************ */
+.ct-socials {
+  position: fixed;
+  top: 25%;
+  right: 0;
+  list-style: none;
+  padding-left: 0;
+  z-index: 10;
+  margin: 0;
+  -webkit-transition: right 0.25s ease-in-out;
+  transition: right 0.25s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.ct-socials li {
+  padding: 0px 0;
+}
+
+.ct-socials li a {
+  background: rgb(112, 223, 112);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  width: 44px;
+  height: 54px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  float: right;
+  padding-left: 5px;
+}
+
+.ct-socials li a:hover {
+  width: 54px;
+  padding-left: 0;
+  text-decoration: none;
+  background: #3c9bd9;
+}
+
+/* w3school */
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+
+.aboutus {
+  margin-top: 50px;
+
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+/* .container {
+  padding: 5px;
+} */
+
+
+
+/* Clear floats */
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(94, 86, 86);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 31%;
+  border-radius: 50%;
+
+
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(58, 201, 23);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.button:hover {
+  background-color: rgb(95, 214, 158);
+}
+
+.aboutc {
+  text-align: center;
+  background-color: rgb(42, 165, 89);
+}
+
+  {
+  box-sizing: border-box;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 450px;
+  height: 250px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: whitesmoke;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  text-align: center;
+
+
+}
+
+.chat,
+.mg {
+  color: #000;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+
+
+/* *********product************ */
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {
+  height: 1500px
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  .row.content {
+    height: auto;
+  }
+}
